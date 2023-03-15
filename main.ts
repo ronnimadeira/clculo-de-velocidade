@@ -20,6 +20,7 @@ input.onPinPressed(TouchPin.P1, function () {
         # . . . #
         `)
     d = t1 - t0
+    basic.clearScreen()
     basic.showNumber(d)
 })
 let d = 0
